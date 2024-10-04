@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.weather-icon {
+  font-size: 5em; /* Taille de l'emoji météo */
+}
+
+.weather-info {
+  font-size: 2.5em; /* Taille de la température */
+}
+
+.humidity,
+.wind-speed {
+  font-size: 1em;
+  margin-top: 10px;
+}
